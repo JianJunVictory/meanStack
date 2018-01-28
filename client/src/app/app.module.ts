@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { NavheaderComponent } from './componets/navheader/navheader.component';
 import { HomeComponent } from './componets/home/home.component';
 import { DashboardComponent } from './componets/dashboard/dashboard.component';
+import { EnterComponent } from './componets/enter/enter.component';
+import { AdvertComponent } from './componets/advert/advert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavheaderComponent,
     HomeComponent,
-    DashboardComponent
+    DashboardComponent,
+    EnterComponent,
+    AdvertComponent
   ],
   imports: [
     BrowserModule,
